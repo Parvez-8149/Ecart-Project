@@ -1,3 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: rgb(237, 253, 93);
+    color: rgb(247, 18, 18);
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.tital-bar{
+    font-size: 2rem;
+}
+.nav div{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: .25rem;   
+}
+
+
 .App {
   text-align: center;
 }
@@ -46,4 +81,13 @@
 }
 .signuContainer button{
   cursor: pointer;
+}
+.Container{
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(135deg,#71b7eb, #9b59b6);
+    
 }
